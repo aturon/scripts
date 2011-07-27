@@ -1,2 +1,2 @@
 #!/bin/sh
-find $1 | grep "\.$2$" | wc -l | sort
+find $1 | grep "\.$2$" | xargs wc -l | sort -g
