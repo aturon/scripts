@@ -1,0 +1,2 @@
+#!/bin/sh
+scala -J-Xmx2048M -J-XX:+DoEscapeAnalysis target/scala-2.9.0.1/chemistryset_2.9.0-1-0.1.jar $1
